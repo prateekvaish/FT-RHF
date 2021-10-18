@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-The program performs restricted thermal Hartree-Fock calculations for closed-shell
+This program performs restricted thermal Hartree-Fock calculations for closed-shell
 molecular systems. Molecular orbitals are optimized for a given temperature and 
 chemical potential.
 
