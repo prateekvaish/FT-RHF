@@ -1,11 +1,11 @@
 # FT-RHF
 
-This program performs restricted Hartree-Fock calculations at finite temperture for closed-shell molecular systems. One and two-electron integrals are obtained using pyscf package. Within the prograam, the chemical potential can be tuned such that occupancy equals the number of electrons in the molecule. 
+This program performs restricted Hartree-Fock calculations at finite temperture for closed-shell molecular systems. One and two-electron integrals are obtained using pyscf package. Within the program, the chemical potential can be tuned such that occupancy equals the number of electrons in the molecule. 
 
 ## Known issues
 
-- Pulay mixing is not working at finite tempertures. 
-- Linear density mixing is extremely inefficient at very low temperatures. Lowering the mix_dm parameter converges the SCF procedure but increases the number of SCF iterations.
+- Pulay mixing (DIIS) is not working at finite tempertures. 
+- Linear density mixing is extremely inefficient at low temperatures. Lowering the mix_dm parameter converges the SCF procedure but increases the number of SCF iterations.
 
 ## References
 
