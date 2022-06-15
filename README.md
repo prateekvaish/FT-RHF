@@ -4,7 +4,7 @@ This program performs restricted Hartree-Fock calculations at finite temperture 
 
 ## Known issues
 
-- Pulay mixing (DIIS) is not working at finite tempertures. 
+- Pulay mixing (DIIS) is not working at finite temperatures. 
 - Linear density mixing is extremely inefficient at low temperatures. Lowering the mix_dm parameter converges the SCF procedure but increases the number of SCF iterations.
 
 ## References
